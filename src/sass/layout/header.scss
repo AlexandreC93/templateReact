@@ -1,0 +1,35 @@
+.list{
+  
+    display: flex;
+    flex-flow: row nowrap;
+
+    .btn-head{
+        padding: 4vh;
+    }
+}
+
+.navbar{
+    border-bottom: solid lightgray 1px;
+}
+
+#header{
+    background:  linear-gradient(180deg, rgba(63, 55, 55, 0.5) 98%, rgba(19, 18, 18, 0.5) 95.24%, rgba(28, 28, 28, 0.4) 95%),
+    url(/img/bureau.jpg) center center /cover no-repeat;
+    height: 90vh;
+    width: 98vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+
+        .title{
+        text-align: center;
+        color: white;
+        font-size: 70px;
+        }
+
+        .font{
+            text-align: center;
+            color: white;
+        }
+}

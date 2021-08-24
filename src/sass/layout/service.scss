@@ -1,0 +1,42 @@
+#service-cont{
+    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+
+    .service-title{
+        color: white;
+    }
+
+    i{
+        box-shadow:  1px 1px 1px rgb(0, 0, 0/ 5%);
+    }
+
+    .title{
+        color: white;
+    }
+    .font{
+        display: inline-block;
+        text-indent: 10%;
+        color: white;
+    }
+
+    
+
+    @media only screen and (min-width:760px ){
+
+        #box-disp{
+            display: flex;
+            flex-flow: row wrap;
+           
+            justify-content: space-around;
+
+        }
+
+        .disp{
+            
+            margin: 3vw;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+    }
+        
+    
+}
